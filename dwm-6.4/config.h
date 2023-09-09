@@ -134,7 +134,6 @@ static const Key keys[] = {
 	{ MODKEY,			XK_n,	   spawn,	   {.v = (const char*[]){ "st", "-e", "nvim", "Notes", NULL } } },
         { MODKEY,			XK_F1,	   spawn,	   {.v = (const char*[]){ "st", "-e", "surf", "-f", "http://suckless.org", NULL } } },
         { MODKEY,			XK_F2,	   spawn,	   {.v = (const char*[]){ "st", "-e", "surf", "-f", "https://www.debian.org/distrib/packages", NULL } } },
-        { MODKEY,			XK_F10,	   spawn,	   {.v = (const char*[]){ "st", "-e", "surf", "-f", "https://www.reddit.com/r/morenabaccarin/", NULL } } },
 	{ MODKEY,			XK_F3,	   spawn,	   {.v = (const char*[]){ "st", "-e", "newsboat", NULL } } },
 
 
